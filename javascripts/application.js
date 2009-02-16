@@ -9,7 +9,6 @@ $(function () {
 
 	// clear input to counter form content caching
 	if($('#search-projects').length > 0) {
-		$('#search-projects-container').css("display", "block");
 		$('#search-projects')[0].value = "";
 	}
 	// delimiting search event
